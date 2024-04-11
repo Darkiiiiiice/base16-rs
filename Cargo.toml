@@ -1,8 +1,9 @@
 [package]
-name = "base"
+name = "base16-rs"
 version = "0.1.0"
 edition = "2021"
 authors = ["Darkiiiiiice darkiiiiiice@gmail.com"]
+description = "The base16-rs library in Rust offers capabilities for encoding and decoding data in Base16 format. By utilizing the hex library, you can transform data into its hexadecimal representation and also decode hexadecimal strings to retrieve the original data. This encoding technique is frequently employed for tasks involving data transmission and storage, as well as in situations where binary data necessitates representation in readable ASCII strings."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
