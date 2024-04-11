@@ -1,9 +1,9 @@
-use base::base16::Encoder;
-use base::base16::Type::StdEncoding;
+use base16_rs::base16::Encoder;
+use base16_rs::base16::Type::StdEncoding;
 
 fn main() {
     println!("hello base16");
-    base::add(120, 140);
+    base16_rs::add(120, 140);
 
     let str = String::from("abcdefghijklmnop");
 
